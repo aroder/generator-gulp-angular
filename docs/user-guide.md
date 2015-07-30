@@ -103,7 +103,7 @@ A dependency wrongly installed or which doesn't link properly the files to inclu
 
 ### Your source code
 
-The generator is also abled to automatically write the `script` and `link` tags for your own source files. To do that, it look through the whole content of the `src` folder and inject all the files in the `index.html`.
+The generator is also abled to automatically write the `script` and `link` tags for your own source files. To do that, it looks through the whole content of the `src` folder and inject all the files in the `index.html`.
 
 As the order of the files are important in JavaScript, the order is not chosen randomly. We use a script called [Angular FileSort](https://github.com/klei/gulp-angular-filesort) which will analyse your source code and reorder your files respecting the dependencies discovered through the Angular modules.
 
